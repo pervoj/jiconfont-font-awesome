@@ -1,3 +1,5 @@
+[![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3)
+
 #  jIconFont – Font Awesome
 
 Package of latest Font Awesome fonts created for using with [jIconFont](http://jiconfont.github.io/).
