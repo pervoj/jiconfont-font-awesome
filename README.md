@@ -40,3 +40,5 @@ iconNode.setFill(Color.DARKGREEN);
 2. Check if it is NOT pro icon.
 3. Check what style the icon belongs to and select a class accordingly: `FontAwesomeSolid`, `FontAwesomeRegular` or `FontAwesomeBrands`.
 4. Copy icon ID and use it as `FontAwesomeSolid.ICON_ID` (all in upper case and replace dashes with underscores).
+
+![Font Awesome Catalog](https://user-images.githubusercontent.com/71781857/111660223-2533bf00-880e-11eb-91c8-e17764491612.png)
