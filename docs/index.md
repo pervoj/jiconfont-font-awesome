@@ -9,6 +9,10 @@ For each Font Awesome icon style is there one class. There are three classes:
 * `FontAwesomeRegular` – for [these](https://fontawesome.com/cheatsheet/free/regular) icons
 * `FontAwesomeBrands` – for [these](https://fontawesome.com/cheatsheet/free/brands) icons
 
+# Download
+
+You can download this library from GitHub repository releases page: [https://github.com/pervoj/jiconfont-font-awesome/releases)(https://github.com/pervoj/jiconfont-font-awesome/releases)
+
 # Usage
 
 Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
