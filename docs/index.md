@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+[![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3)
 
-You can use the [editor on GitHub](https://github.com/pervoj/jiconfont-font-awesome/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+#  jIconFont – Font Awesome
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Package of latest Font Awesome fonts created for using with [jIconFont](http://jiconfont.github.io/).
 
-### Markdown
+For each Font Awesome icon style is there one class. There are three classes:
+* `FontAwesomeSolid` – for [these](https://fontawesome.com/cheatsheet/free/solid) icons
+* `FontAwesomeRegular` – for [these](https://fontawesome.com/cheatsheet/free/regular) icons
+* `FontAwesomeBrands` – for [these](https://fontawesome.com/cheatsheet/free/brands) icons
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Usage
 
-```markdown
-Syntax highlighted code block
+Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
 
-# Header 1
-## Header 2
-### Header 3
+### Swing
 
-- Bulleted
-- List
+Using in Swing is very simple. Here is example with solid style:
 
-1. Numbered
-2. List
+```java
+IconFontSwing.register(FontAwesomeSolid.getIconFont());
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Icon icon = IconFontSwing.buildIcon(FontAwesomeSolid.CHECK, 40, new Color(0, 150, 0));
+JLabel label = new JLabel(icon);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### JavaFX
 
-### Jekyll Themes
+JavaFX usage is simple too:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pervoj/jiconfont-font-awesome/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```java
+IconFontFX.register(FontAwesomeSolid.getIconFont());
 
-### Support or Contact
+IconNode iconNode = new IconNode(FontAwesomeSolid.CHECK);
+iconNode.setIconSize(40);
+iconNode.setFill(Color.DARKGREEN);
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## How to get icon ID?
+
+1. Go to this page: [https://fontawesome.com/icons](https://fontawesome.com/icons) and find icon, which you want to use.
+2. Check if it is NOT pro icon.
+3. Check what style the icon belongs to and select a class accordingly: `FontAwesomeSolid`, `FontAwesomeRegular` or `FontAwesomeBrands`.
+4. Copy icon ID and use it as `FontAwesomeSolid.ICON_ID` (all in upper case and replace dashes with underscores).
+
+![Font Awesome Catalog](https://user-images.githubusercontent.com/71781857/111660223-2533bf00-880e-11eb-91c8-e17764491612.png)
