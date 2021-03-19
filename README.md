@@ -1,4 +1,4 @@
-[![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3)
+[![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3) [![Download: 1.0](https://img.shields.io/badge/Download-1.0-yellow?logo=docusign)](https://github.com/pervoj/jiconfont-font-awesome/releases/latest) [![License: GPL 3.0](https://img.shields.io/badge/License-GPL%203.0-green)](https://github.com/pervoj/jiconfont-font-awesome/blob/master/LICENSE)
 
 #  jIconFont – Font Awesome
 
