@@ -1,15 +1,19 @@
 [![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3)
 
+# What is it?
+
+*jIconFont – Font Awesome* is Java library, which expands the possibilities of the original library ([jIconFont - Font Awesome](http://jiconfont.github.io/fontawesome) by [Carlos Eduardo Leite de Andrade](https://github.com/caduandrade)) and uses latest versions of Font Awesome.
+
 For each Font Awesome icon style is there one class. There are three classes:
 * `FontAwesomeSolid` – for [these](https://fontawesome.com/cheatsheet/free/solid) icons
 * `FontAwesomeRegular` – for [these](https://fontawesome.com/cheatsheet/free/regular) icons
 * `FontAwesomeBrands` – for [these](https://fontawesome.com/cheatsheet/free/brands) icons
 
-## Usage
+# Usage
 
 Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
 
-### Swing
+## Swing
 
 Using in Swing is very simple. Here is example with solid style:
 
@@ -20,7 +24,7 @@ Icon icon = IconFontSwing.buildIcon(FontAwesomeSolid.CHECK, 40, new Color(0, 150
 JLabel label = new JLabel(icon);
 ```
 
-### JavaFX
+## JavaFX
 
 JavaFX usage is simple too:
 
@@ -32,7 +36,7 @@ iconNode.setIconSize(40);
 iconNode.setFill(Color.DARKGREEN);
 ```
 
-## How to get icon ID?
+# How to get icon ID?
 
 1. Go to this page: [https://fontawesome.com/icons](https://fontawesome.com/icons) and find icon, which you want to use.
 2. Check if it is NOT pro icon.
