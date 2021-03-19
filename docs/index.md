@@ -11,7 +11,7 @@ For each Font Awesome icon style is there one class. There are three classes:
 
 # Download
 
-You can download this library from GitHub repository releases page: [https://github.com/pervoj/jiconfont-font-awesome/releases)(https://github.com/pervoj/jiconfont-font-awesome/releases)
+You can download this library from GitHub repository releases page: [https://github.com/pervoj/jiconfont-font-awesome/releases](https://github.com/pervoj/jiconfont-font-awesome/releases)
 
 # Usage
 
