@@ -2,22 +2,22 @@
 
 # What is it?
 
-*jIconFont – Font Awesome* is Java library, which expands the possibilities of the original library ([jIconFont - Font Awesome](http://jiconfont.github.io/fontawesome) by [Carlos Eduardo Leite de Andrade](https://github.com/caduandrade)) and uses latest versions of Font Awesome.
+*jIconFont – Font Awesome* is Java library, which expands the possibilities of the original library ([jIconFont - Font Awesome](http://jiconfont.github.io/fontawesome) by [Carlos Eduardo Leite de Andrade](https://github.com/caduandrade)) and uses latest versions of Font Awesome, and which can be used in Java Swing or JavaFX.
+
+It aims to always be up to date with the latest version of Font Awesome.
 
 For each Font Awesome icon style is there one class. There are three classes:
 * `FontAwesomeSolid` – for [these](https://fontawesome.com/cheatsheet/free/solid) icons
 * `FontAwesomeRegular` – for [these](https://fontawesome.com/cheatsheet/free/regular) icons
 * `FontAwesomeBrands` – for [these](https://fontawesome.com/cheatsheet/free/brands) icons
 
-# Download
-
-You can download this library from GitHub repository releases page: [https://github.com/pervoj/jiconfont-font-awesome/releases](https://github.com/pervoj/jiconfont-font-awesome/releases)
-
 # Usage
 
-Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
+Each usage requires the jIconFont library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont](https://search.maven.org/artifact/com.github.jiconfont/jiconfont)
 
 ## Swing
+
+For using in Swing you need to have jIconFont Swing library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont-swing](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-swing)
 
 Using in Swing is very simple. Here is example with solid style:
 
@@ -29,6 +29,8 @@ JLabel label = new JLabel(icon);
 ```
 
 ## JavaFX
+
+Using in JavaFX requires jIconFont JavaFX library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont-javafx](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-javafx)
 
 JavaFX usage is simple too:
 
