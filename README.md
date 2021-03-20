@@ -13,9 +13,11 @@ For each Font Awesome icon style is there one class. There are three classes:
 
 ## Usage
 
-Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
+Each usage requires the jIconFont library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont](https://search.maven.org/artifact/com.github.jiconfont/jiconfont)
 
 ### Swing
+
+For using in Swing you need to have jIconFont Swing library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont-swing](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-swing)
 
 Using in Swing is very simple. Here is example with solid style:
 
@@ -27,6 +29,8 @@ JLabel label = new JLabel(icon);
 ```
 
 ### JavaFX
+
+Using in JavaFX requires jIconFont JavaFX library: [https://search.maven.org/artifact/com.github.jiconfont/jiconfont-javafx](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-javafx)
 
 JavaFX usage is simple too:
 
