@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package cz.pervoj.jiconfont;
+package com.github.pervoj.jiconfont;
 
 import jiconfont.IconCode;
 import jiconfont.IconFont;
@@ -218,7 +218,7 @@ public enum FontAwesomeRegular implements IconCode {
 
             @Override
             public InputStream getFontInputStream() {
-                return FontAwesomeRegular.class.getResourceAsStream("/cz/pervoj/jiconfont/fonts/font-awesome-regular.otf");
+                return FontAwesomeRegular.class.getResourceAsStream("/com/github/pervoj/jiconfont/fonts/font-awesome-regular.otf");
             }
         };
     }

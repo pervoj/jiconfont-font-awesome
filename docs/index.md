@@ -1,4 +1,4 @@
-[![Download: 1.0](https://img.shields.io/badge/Download-1.0-yellow?logo=docusign)](https://github.com/pervoj/jiconfont-font-awesome/releases/latest) [![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3) [![License: GPL 3.0](https://img.shields.io/badge/License-GPL%203.0-green)](https://github.com/pervoj/jiconfont-font-awesome/blob/master/LICENSE)
+[![Download: 1.0.2](https://img.shields.io/badge/Download-1.0.2-yellow?logo=docusign)](https://search.maven.org/artifact/com.github.pervoj/jiconfont-font-awesome/1.0.2/jar) [![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3) [![License: GPL 3.0](https://img.shields.io/badge/License-GPL%203.0-green)](https://github.com/pervoj/jiconfont-font-awesome/blob/master/LICENSE)
 
 # What is it?
 
@@ -9,17 +9,29 @@ For each Font Awesome icon style is there one class. There are three classes:
 * `FontAwesomeRegular` – for [these](https://fontawesome.com/cheatsheet/free/regular) icons
 * `FontAwesomeBrands` – for [these](https://fontawesome.com/cheatsheet/free/brands) icons
 
-# Download
+## How to get?
 
-You can download this library from GitHub repository releases page: [https://github.com/pervoj/jiconfont-font-awesome/releases](https://github.com/pervoj/jiconfont-font-awesome/releases)
+You can download this library from [GitHub repository releases](https://github.com/pervoj/jiconfont-font-awesome/releases), [Maven Central repository](https://search.maven.org/artifact/com.github.pervoj/jiconfont-font-awesome), or you can use it as Maven dependency:
+
+```xml
+<dependency>
+    <groupId>com.github.pervoj</groupId>
+    <artifactId>jiconfont-font-awesome</artifactId>
+    <version>1.0.2</version>
+</dependency>
+```
 
 # Usage
 
-Each usage requires the jIconFont library: [http://jiconfont.github.io/](http://jiconfont.github.io/)
+Each usage requires the [jIconFont library](https://search.maven.org/artifact/com.github.jiconfont/jiconfont).
+
+If you are using this library as Maven dependency, this requirement will be attached automatically.
 
 ## Swing
 
-Using in Swing is very simple. Here is example with solid style:
+Using in Swing requires [jIconFont - Swing](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-swing) dependency.
+
+How it use? It's simple. Here is example with solid style:
 
 ```java
 IconFontSwing.register(FontAwesomeSolid.getIconFont());
@@ -29,6 +41,8 @@ JLabel label = new JLabel(icon);
 ```
 
 ## JavaFX
+
+Using in JavaFX requires [jIconFont - JavaFX](https://search.maven.org/artifact/com.github.jiconfont/jiconfont-javafx) dependency.
 
 JavaFX usage is simple too:
 
