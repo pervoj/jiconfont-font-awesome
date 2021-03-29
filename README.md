@@ -2,7 +2,9 @@
 
 #  jIconFont – Font Awesome
 
-Package of latest Font Awesome fonts created for using with [jIconFont](http://jiconfont.github.io/).
+*jIconFont – Font Awesome* is Java library, which expands the possibilities of the original library ([jIconFont - Font Awesome](http://jiconfont.github.io/fontawesome) by [Carlos Eduardo Leite de Andrade](https://github.com/caduandrade)) and uses latest versions of Font Awesome, and which can be used in Java Swing or JavaFX.
+
+It aims to always be up to date with the latest version of Font Awesome.
 
 For each Font Awesome icon style is there one class. There are three classes:
 * `FontAwesomeSolid` – for [these](https://fontawesome.com/cheatsheet/free/solid) icons
