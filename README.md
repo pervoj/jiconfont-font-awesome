@@ -1,3 +1,12 @@
+<table align="center"><tr><td>
+  <h2 align="center">⚠️&ensp;WARNING&ensp;⚠️</h2>
+  <h3 align="center">This project is no longer maintained!</h3>
+  <p>I have decided to end the project for the time being to work on other projects. However, the project is still usable, I just won't be developing it anymore.</p>
+  <p>When there is time, I may return to the project, for now the repository is archived.</p>
+</td></tr></table>
+
+
+
 [![Download: 1.0.2](https://img.shields.io/badge/Download-1.0.2-yellow?logo=docusign)](https://search.maven.org/artifact/com.github.pervoj/jiconfont-font-awesome/1.0.2/jar) [![Font Awesome version: 5.15.3](https://img.shields.io/badge/Font%20Awesome%20version-5.15.3-blue?logo=font-awesome)](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3) [![License: GPL 3.0](https://img.shields.io/badge/License-GPL%203.0-green)](https://github.com/pervoj/jiconfont-font-awesome/blob/master/LICENSE)
 
 #  jIconFont – Font Awesome
